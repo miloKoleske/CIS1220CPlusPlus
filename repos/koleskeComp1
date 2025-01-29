@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 #include <cmath>//use math
-#
+#include <iomanip>
 
 
 int main()
@@ -34,8 +34,8 @@ int main()
     diameter = pizza_size; // instantiating diameter to pizza size chosen by guest
     double radius = diameter / 2; // radius is half of diameter
     double area = pi * radius * radius; //formula to calculate surface area
-    cout << "When pizza size is " << pizza_size << ", surface area of the pizza is " << area << " inches\n\n";
-    double slices_per_pizza = (area_per_slice / area) * 360; //declare and instantiate slices per pizza = (area per slice/total area) * 360
+    cout << "When pizza size is " << pizza_size << "inches, the surface area of the pizza is " << area << " inches\n\n";
+    int slices_per_pizza = area / area_per_slice; //declare and instantiate slices per pizza = (area per slice/total area) * 360
     cout << "A pizza of this size has " << slices_per_pizza << " slices\n";
 
     // calculate number of pizzas to order
