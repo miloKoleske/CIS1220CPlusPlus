@@ -1,0 +1,25 @@
+// Milo Koleske
+// mkoleske@cnm.edu
+// koleskeComp2Act6
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Programmer name: Milo Koleske\n";
+    cout << "Program title: koleskeComp2Act6\n";
+    cout << "Program objective: Translate the floors in a hotel to the correct number as most hotels do not have a 13th floor.";
+
+    // declare two int variables
+    int displayNumber{ 0 }, floorNumber{ 0 };
+
+
+
+
+
+
+    return 0;
+}
+
+
