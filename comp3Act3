@@ -1,0 +1,70 @@
+// Milo Koleske
+// mkoleske@cnm.edu
+// koleskeComp3Act3
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Programmer name: Milo Koleske\n";
+    cout << "Program title: koleskeComp3Act3\n";
+    cout << "Program objective: use nested loop[s to create a multiplication table from 12 - 15 to be multipled by 1 - 10.\n";
+    cout << "\n----------------------------------------------------------------------------------\n";
+
+
+        // while loop of int is between 12 and 15
+            // for loop of i = 1 - 10 increment updward and multiply the current int by i
+            // 
+
+        int baseNum{ 12 };
+        int result{};
+
+        while (baseNum >= 12 && baseNum <= 15) {
+
+            for (int i = 1; i <= 10; i++) {
+                result = baseNum * i;
+                cout << result << endl;
+
+            }
+        }
+
+            
+
+
+
+
+
+        /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
