@@ -1,0 +1,49 @@
+// lab11.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+#include <vector>
+#include <string>
+using namespace std;
+
+int main()
+{
+    cout << "Lab 11\n";
+    cout << "cin\n";
+
+    int age;
+    string name;
+    string classname;
+
+    cout << "Please enter your age: ";
+    cin >> age;
+    cout << age << endl;
+
+    cout << "enter your name: ";
+    getline(cin, name);
+
+
+
+
+
+    cout << "Please enter your first and last name separated by a space: ";
+    cin >> name;
+    cout << name << endl;
+
+    cout << "Please enter your class name: ";
+    cin >> classname;
+    cout << classname << endl;
+
+    cout << "In the code above, notice that your last name prints where it tells you to input your class name." << endl;
+
+    cout << "Why? CIN reads until it sees the whitespace. Anything past that is left in the stream, waiting to be read next." << endl;
+
+
+
+
+
+
+
+
+    return 0;
+}
