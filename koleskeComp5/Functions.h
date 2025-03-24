@@ -5,6 +5,9 @@
 // preprocessor directives
 #include <iostream>
 #include <string>
+#include <chrono>
+#include <vector>
+#include <sstream>
 using namespace std;
 
 // function prototypes
@@ -12,13 +15,13 @@ void WriteHeader();
 void WriteGameRules();
 
 // pointer goes into params
-void AskUserChoice(int* uChoice);
+void AskUserChoice(int* puChoice);
 
 // pointer for string result
 bool ValidateUserChoice(int uChoice, string* result);
 
 // pointer params for cChoice and TieCount
-void ObtainCompChoice(int uChoice, int* cChoice, int* pTieCount);
+void ObtainCompChoice(int uChoice, int* pcChoice, int* pTieCount);
 
 // references for userWins and compWins
 string DetermineWinner(int uChoice, int cChoice, int& userWins, int& compWins);
